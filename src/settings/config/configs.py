@@ -26,7 +26,7 @@ class Config:
         self.CELERY_RESULT_BACKEND = env.str("CELERY_RESULT_BACKEND")
         self.CELERY_BEAT_SCHEDULER = env.str("CELERY_BEAT_SCHEDULER")
         self.CELERY_TIMEZONE = env.str("CELERY_TIMEZONE")
-        self.CELERY_NOTIFY_INTERVAL = env.str("CELERY_NOTIFY_INTERVAL")
+        self.CELERY_NOTIFY_INTERVAL = env.int("CELERY_NOTIFY_INTERVAL")
 
         if not self.DB_URL:
             self.DB_URL = self.generate_db_url()
