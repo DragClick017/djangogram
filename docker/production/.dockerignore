@@ -12,7 +12,6 @@ staticfiles/
 logs/
 
 .git/
-.gitignore
 
 .vscode/
 .idea/

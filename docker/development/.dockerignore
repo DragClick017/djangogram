@@ -41,7 +41,6 @@ pnpm-lock.yaml
 
 # Git & version control
 .git/
-.gitignore
 .gitmodules
 .gitconfig
 

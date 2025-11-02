@@ -14,12 +14,12 @@ class Config:
         self.BOT_TOKEN = env.str("BOT_TOKEN")
         self.IS_POLLING = env.bool("IS_POLLING")
 
-        self.DB_ENGINE = env.str("DB_ENGINE", "django.db.backends.postgresql")
-        self.DB_NAME = env.str("DB_NAME", "road24_db")
-        self.DB_USER = env.str("DB_USER", "road24_user")
-        self.DB_PASSWORD = env.str("DB_PASSWORD", "road24_password")
-        self.DB_HOST = env.str("DB_HOST", "db")
-        self.DB_PORT = env.int("DB_PORT", 5432)
+        self.DB_ENGINE = env.str("DB_ENGINE")
+        self.DB_NAME = env.str("DB_NAME")
+        self.DB_USER = env.str("DB_USER")
+        self.DB_PASSWORD = env.str("DB_PASSWORD")
+        self.DB_HOST = env.str("DB_HOST")
+        self.DB_PORT = env.int("DB_PORT")
         self.DB_URL = env.str("DB_URL", "")
 
         self.CELERY_BROKER_URL = env.str("CELERY_BROKER_URL")
