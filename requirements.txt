@@ -20,6 +20,7 @@ dj-database-url==3.0.1
 Django==5.2.7
 django-celery-beat==2.8.1
 django-timezone-field==7.1
+django-unfold==0.69.0
 djangorestframework==3.16.1
 environs==14.3.0
 frozenlist==1.8.0

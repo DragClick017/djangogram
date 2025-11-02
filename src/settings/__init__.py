@@ -6,3 +6,4 @@ from .db import * # noqa
 from .config import * # noqa
 from .internal import * # noqa
 from .external import * # noqa
+from .dashboard import * # noqa
